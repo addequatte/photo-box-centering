@@ -7,5 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Tests\\' => array($baseDir . '/tests'),
-    'Addequatte\\PhotoBoxCentraze\\' => array($baseDir . '/src'),
+    'Addequatte\\PhotoBoxCentering\\' => array($baseDir . '/src'),
 );

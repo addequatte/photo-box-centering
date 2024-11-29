@@ -1,9 +1,9 @@
 <?php
 
 
-use Addequatte\PhotoBoxCentraze\Data\PositionedBox;
-use Addequatte\PhotoBoxCentraze\Data\TranslatePlan;
-use Addequatte\PhotoBoxCentraze\Service\CenterPhoto;
+use Addequatte\PhotoBoxCentering\Data\PositionedBox;
+use Addequatte\PhotoBoxCentering\Data\TranslatePlan;
+use Addequatte\PhotoBoxCentering\Service\CenterPhoto;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 

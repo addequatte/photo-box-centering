@@ -11,7 +11,7 @@
 /**
  * public/index.php
  */
-use Addequatte\PhotoBoxCentraze\Data\TranslatePlan;
+use Addequatte\PhotoBoxCentering\Data\TranslatePlan;
 
 $photoUrl = 'data:image/png;base64, ' . base64_encode(file_get_contents(__DIR__ . '/pic.jpg'));
 $photoWidth = 1280;

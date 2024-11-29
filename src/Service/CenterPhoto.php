@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Addequatte\PhotoBoxCentraze\Service;
+namespace Addequatte\PhotoBoxCentering\Service;
 
-use Addequatte\PhotoBoxCentraze\Data\TranslatePlan;
-use Addequatte\PhotoBoxCentraze\Data\PositionedBox;
-use Addequatte\PhotoBoxCentraze\Data\TranslatePhoto;
+use Addequatte\PhotoBoxCentering\Data\TranslatePlan;
+use Addequatte\PhotoBoxCentering\Data\PositionedBox;
+use Addequatte\PhotoBoxCentering\Data\TranslatePhoto;
 
 class CenterPhoto
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Addequatte\PhotoBoxCentraze\Data;
+namespace Addequatte\PhotoBoxCentering\Data;
 
 class PositionedBox
 {

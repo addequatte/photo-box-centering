@@ -13,7 +13,7 @@ class ComposerStaticInitad72e4ee3b6f14ba84e5342d815a954d
         ),
         'A' => 
         array (
-            'Addequatte\\PhotoBoxCentraze\\' => 28,
+            'Addequatte\\PhotoBoxCentering\\' => 29,
         ),
     );
 
@@ -22,7 +22,7 @@ class ComposerStaticInitad72e4ee3b6f14ba84e5342d815a954d
         array (
             0 => __DIR__ . '/../..' . '/tests',
         ),
-        'Addequatte\\PhotoBoxCentraze\\' => 
+        'Addequatte\\PhotoBoxCentering\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

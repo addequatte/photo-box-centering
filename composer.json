@@ -8,7 +8,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Addequatte\\PhotoBoxCentraze\\": "src/"
+            "Addequatte\\PhotoBoxCentering\\": "src/"
         }
     },
     "autoload-dev": {

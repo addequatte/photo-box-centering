@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Addequatte\PhotoBoxCentraze\Data;
+namespace Addequatte\PhotoBoxCentering\Data;
 
 class TranslatePhoto
 {
