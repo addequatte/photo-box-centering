@@ -1,0 +1,26 @@
+{
+    "name": "addequatte/photo-box-centraze",
+    "description": "Allows you to center the photo on a given area, such as the coordinates of the face. You can specify the percentage of face filling in the final photo, which you can set yourself.",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Addequatte\\PhotoBoxCentraze\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "addequatte",
+            "email": "addequatte@yandex.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}

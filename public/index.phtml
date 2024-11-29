@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Примеры</title>
+</head>
+<style>
+    body {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo_box {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .photo_box:hover {
+        overflow: visible;
+        z-index: 3;
+    }
+
+    .photo_box:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background: transparent;
+        z-index: 1;
+        pointer-events: none;
+        top: -1px;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        box-shadow: 0 0 0 5000px rgba(255, 255, 255, .5);
+    }
+</style>
+<body>
+    <?php
+    echo '<div class="photo_box" style="width:' . $targetWidth . 'px;height:' . $targetHeight . 'px;">';
+    echo '<img src="' . $photoUrl . '" style="min-width:100%; min-height:100%; width:' . $scale . '%; transform:translate(' . $translateX . '%,' . $translateY . '%)">';
+    echo '</div>';
+
+    ?>
+</body>
+</html>
