@@ -1,5 +1,5 @@
 {
-    "name": "addequatte/photo-box-centraze",
+    "name": "addequatte/photo-box-centering",
     "description": "Allows you to center the photo on a given area, such as the coordinates of the face. You can specify the percentage of face filling in the final photo, which you can set yourself.",
     "type": "library",
     "require": {
