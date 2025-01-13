@@ -8,7 +8,7 @@ use Addequatte\PhotoBoxCentering\Data\TranslatePlan;
 use Addequatte\PhotoBoxCentering\Data\PositionedBox;
 use Addequatte\PhotoBoxCentering\Data\TranslatePhoto;
 
-class CenterPhoto
+class PhotoTranslator
 {
     /**
      * @param TranslatePlan $plan
